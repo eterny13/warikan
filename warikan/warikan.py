@@ -12,3 +12,7 @@ class Warikan:
         kanji_bill = (member_bill * members) - total_bill
         
         return member_bill, kanji_bill 
+
+    def calc(self, total_bill, normal_members, large_members, small_members):
+
+        return (0, 0, 0, 0) 
